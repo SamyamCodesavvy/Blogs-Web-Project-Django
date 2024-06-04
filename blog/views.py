@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.http import HttpResponseNotFound, HttpResponse, HttpResponseRedirect
 
 # Create your views here.
 def starting_page(request):
